@@ -1,7 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
 .rights{
-    min-height: 100vh;
+    position: relative;
+    top: 225px;
 }
 
 body{
@@ -62,7 +63,7 @@ div.container a
 
 .red
 {
-    background: #621c17;
+    background: #000000;
 }
 
 /* Top and Bottom borders go out */
