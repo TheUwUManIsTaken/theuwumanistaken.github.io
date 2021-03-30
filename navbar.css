@@ -9,6 +9,45 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
+
+img.logos{
+    z-index: 1;
+    position: absolute;
+    opacity: 0.1;
+    bottom: 350px;
+}
+
+#rythmlogo{
+    left: 1450px;
+    bottom: 600px;
+    transform: rotate(15deg);
+}
+
+#chessbotlogo{
+    left: 1350px;
+    bottom: 25px;
+    transform: rotate(-16deg);
+}
+
+#marologo{
+    left: 100px;
+    bottom: 80px;
+    height: 33%;
+    transform: rotate(10deg);
+}
+
+#dankmemerlogo{
+    left: 100px;
+    bottom: 550px;
+    transform: rotate(-7deg)
+}
+
+#discordlogo{
+    left:38%;
+    width: 24%;
+    bottom: 100px;
+}
+
 html, body
 {
     margin: 0px;
@@ -16,6 +55,7 @@ html, body
 
 header, footer
 {
+    z-index: -2;
     font-family: Raleway;
     margin: 0 auto;
 	padding: 5em 3em;
@@ -64,6 +104,10 @@ div.container a
 .red
 {
     background: #000000;
+}
+
+div.topBotomBordersOut{
+    z-index: -2;
 }
 
 /* Top and Bottom borders go out */
